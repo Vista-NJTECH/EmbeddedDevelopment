@@ -131,7 +131,7 @@ else :
 n = 1
 while n <= 9:
     m = 1
-    while m <=:
+    while m <= 9:
         print(f'{m}*{n}={m*n}', end =' ')
         m += 1
     n += 1
