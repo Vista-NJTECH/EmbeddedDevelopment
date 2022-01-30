@@ -40,7 +40,7 @@ else age:
 socre = 80
 if score >= 90:
     print('A')
-elif socre >= 80:
+elif score >= 80:
     print('B')
 elif score >= 60:
     print('C')
@@ -53,7 +53,7 @@ else:
 从0到4
 
 ```python
-for i int range(5):
+for i in range(5):
     print(i)
 ```
 
@@ -72,7 +72,7 @@ for i int range(5):
 从2到4
 
 ```python
-for i int range(2,5):
+for i in range(2,5):
     print(i)
 ```
 
@@ -89,7 +89,7 @@ for i int range(2,5):
 从1到4，步长为2
 
 ```python
-for i int range(1,5,2):
+for i in range(1,5,2):
     print(i)
 ```
 
