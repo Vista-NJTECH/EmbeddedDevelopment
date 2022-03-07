@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example/main.cpp
+iostream
+-
+

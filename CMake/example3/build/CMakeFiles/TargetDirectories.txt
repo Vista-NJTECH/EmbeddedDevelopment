@@ -1,0 +1,13 @@
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/install/strip.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/install.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/install/local.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/list_install_components.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/edit_cache.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/CMakeFiles/rebuild_cache.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/install/strip.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/edit_cache.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/hello.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/rebuild_cache.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/list_install_components.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/install/local.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example3/build/bin/CMakeFiles/install.dir

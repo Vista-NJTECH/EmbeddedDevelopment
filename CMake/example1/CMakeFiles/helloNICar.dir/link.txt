@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/helloNICar.dir/main.cpp.o  -o helloNICar 

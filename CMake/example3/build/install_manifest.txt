@@ -1,0 +1,4 @@
+/usr/local/share/doc/cmake_test/COPYRIGHT
+/usr/local/share/doc/cmake_test/README
+/usr/local/bin/runIt.sh
+/usr/local/share/doc/cmake_test/hello.txt
