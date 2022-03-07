@@ -1,4 +1,9 @@
 # 语句
+### CMAKE_MINIMUN_REQUIRED
+指出CMake所支持的最小版本
+```
+CMAKE_MINIMUN_REQUIRED(VERSION 2.8.3)
+```
 ### PROJECT
 PROJECT (工程名字 [ 支持语言 ])  默认支持所有语言
 
