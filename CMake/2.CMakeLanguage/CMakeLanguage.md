@@ -57,7 +57,7 @@ ADD_EXECUTABLE(可执行文件名 ${SRC_LIST})
 为 TARGET 添加需要链接的共享库
 ```cmake
 #将hello动态库文件链接到可执行文件main
-target_link_libraries(main hello)
+TARGET_LINK_LIBRARIES(main hello)
 ```
 # 语法基本原则
 - 指令不区分大小写，推荐全大写。
