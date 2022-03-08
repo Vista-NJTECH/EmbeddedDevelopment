@@ -342,7 +342,7 @@ f.close()
 
 ## 14.第三方库安装
 
-in terminal install libraries
+Install libraries in terminal
 
 ```shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple    #设置清华源提提速
