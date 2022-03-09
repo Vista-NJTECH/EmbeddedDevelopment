@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door"
+CMAKE_SOURCE_DIR = "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build"
+CMAKE_BINARY_DIR = "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyFirstCPPOpenCV.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MyFirstCPPOpenCV.dir/flags.make
 
 CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o: CMakeFiles/MyFirstCPPOpenCV.dir/flags.make
 CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o: ../OpenCV00.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o -c "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o -c "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp"
 
 CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" > CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" > CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.i
 
 CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" -o CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" -o CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.s
 
 # Object files for target MyFirstCPPOpenCV
 MyFirstCPPOpenCV_OBJECTS = \
@@ -79,22 +79,55 @@ MyFirstCPPOpenCV_EXTERNAL_OBJECTS =
 
 MyFirstCPPOpenCV: CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o
 MyFirstCPPOpenCV: CMakeFiles/MyFirstCPPOpenCV.dir/build.make
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_highgui.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_ml.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_objdetect.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_photo.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_stitching.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_video.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_videoio.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_imgcodecs.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_calib3d.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_dnn.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_features2d.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_flann.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_imgproc.so.4.5.3
-MyFirstCPPOpenCV: /usr/local/lib/libopencv_core.so.4.5.3
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_gapi.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_stitching.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_aruco.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_bgsegm.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_bioinspired.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_ccalib.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_dnn_objdetect.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_dpm.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_face.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_freetype.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_fuzzy.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_hfs.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_img_hash.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_line_descriptor.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_quality.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_reg.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_rgbd.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_saliency.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_stereo.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_structured_light.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_superres.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_surface_matching.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_tracking.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_videostab.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_xfeatures2d.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_xobjdetect.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_xphoto.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_shape.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_datasets.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_plot.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_text.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_dnn.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_highgui.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_ml.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_phase_unwrapping.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_optflow.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_ximgproc.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_video.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_videoio.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_imgcodecs.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_objdetect.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_calib3d.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_features2d.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_flann.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_photo.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_imgproc.so.4.1.1
+MyFirstCPPOpenCV: /usr/local/lib/libopencv_core.so.4.1.1
 MyFirstCPPOpenCV: CMakeFiles/MyFirstCPPOpenCV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyFirstCPPOpenCV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyFirstCPPOpenCV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyFirstCPPOpenCV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +140,6 @@ CMakeFiles/MyFirstCPPOpenCV.dir/clean:
 .PHONY : CMakeFiles/MyFirstCPPOpenCV.dir/clean
 
 CMakeFiles/MyFirstCPPOpenCV.dir/depend:
-	cd "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/MyFirstCPPOpenCV.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/MyFirstCPPOpenCV.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MyFirstCPPOpenCV.dir/depend
 

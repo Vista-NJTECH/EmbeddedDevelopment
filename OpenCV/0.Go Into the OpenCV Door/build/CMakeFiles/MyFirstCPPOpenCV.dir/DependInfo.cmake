@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o"
+  "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/OpenCV00.cpp" "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/MyFirstCPPOpenCV.dir/OpenCV00.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

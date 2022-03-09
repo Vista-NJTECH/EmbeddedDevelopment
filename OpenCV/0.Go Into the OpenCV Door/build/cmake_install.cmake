@@ -1,4 +1,4 @@
-# Install script for directory: /home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door
+# Install script for directory: /home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/star/Desktop/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
