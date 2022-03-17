@@ -1,0 +1,8 @@
+%YAML:1.0
+---
+fps: 5
+Result: !!opencv-matrix
+   rows: 2
+   cols: 3
+   dt: f
+   data: [ 8., 3., 3., 3., 8., 3. ]
