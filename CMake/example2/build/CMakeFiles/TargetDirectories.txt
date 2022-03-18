@@ -1,0 +1,3 @@
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example2/build/CMakeFiles/rebuild_cache.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example2/build/CMakeFiles/helloNICar.dir
+/media/doiry/2f3e3958-6e9b-4005-b631-a703db1ab3c0/doiry/Desktop/GJW/StudyNotes/CMake/example2/build/CMakeFiles/edit_cache.dir

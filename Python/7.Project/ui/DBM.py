@@ -3,8 +3,8 @@ import sqlite3
 import sys
 
 db_dir = sys.path[0] + '/login.db'
+print(db_dir)
 #print(db_dir)
-
 class loginDB():
     def __init__(self) -> None:
         pass

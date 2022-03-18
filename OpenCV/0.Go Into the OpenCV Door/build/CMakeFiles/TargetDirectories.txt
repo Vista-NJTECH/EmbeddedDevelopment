@@ -1,0 +1,3 @@
+/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/rebuild_cache.dir
+/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/edit_cache.dir
+/home/doiry/Desktop/510Lab/Tutorials/EmbeddedDevelopment/OpenCV/0.Go Into the OpenCV Door/build/CMakeFiles/MyFirstCPPOpenCV.dir
