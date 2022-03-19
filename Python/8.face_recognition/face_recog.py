@@ -4,11 +4,11 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-face_01 = face_recognition.load_image_file("faces/wzy.jpg")
+face_01 = face_recognition.load_image_file("Python/8.face_recognition/faces/wzy.jpg")
 face_01_encoding = face_recognition.face_encodings(face_01)[0]
 
 # Load a second sample picture and learn how to recognize it.
-face_02 = face_recognition.load_image_file("faces/zsy.jpg")
+face_02 = face_recognition.load_image_file("Python/8.face_recognition/faces/zsy.jpg")
 face_02_encoding = face_recognition.face_encodings(face_02)[0]
 
 # Create arrays of known face encodings and their names
@@ -18,7 +18,7 @@ known_face_encodings = [
 ]
 known_face_names = [
     "WZY",
-    "CJW"
+    "ZSY"
 ]
 
 # Initialize some variables
