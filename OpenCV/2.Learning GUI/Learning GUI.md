@@ -99,4 +99,110 @@ Note：
 2.resizeWindow函数，有三个参数：window name、width和height，注意，工具栏不计算在内。  
 3.destroyWindow函数删除这个窗口，唯一需要的参数是窗口名称。  
 
+### 将滑块和鼠标时间添加到界面
+接下来我们将介绍用于基本交互的鼠标事件和滑块控件。
+下面的代码将使用书表示家在图像中绘制绿色圆圈，并使用滑块对图像进行模糊处理：
+```c++
+#include <iostream>
+#include <string>
+#include <sstream>
+using namespace std;
 
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+#include "opencv2/imgproc.hpp"
+using namespace cv;
+
+//创建一个变量来保存滑块位置，一边从其他函数访问它
+int blurAmount=15;
+
+//为滑块和鼠标事件定义回调函数，这是setMouseCallback函数和createTrackbar所必需的
+static void onChange(int pos,void* userInput);
+
+static void onMouse(int event,int x,int y,int,void* userInput);
+
+int main(int argc,const char** argv)
+{
+    //将图片读入矩阵
+    Mat lena=imread("../lena.jpg");
+
+    //创建新窗口
+    namedWindow("Lena");
+
+    //生成滑块，详细参数见Note
+    createTrackbar("Lena","Lena",&blurAmount,30,onChange,&lena);
+
+    //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    setMouseCallback("Lena",onMouse,&lena);
+
+
+    onChange(blurAmount,&lena);
+
+    waitKey(0);
+
+    destroyWindow("Lena");
+
+    return 0;
+
+}
+
+static void onChange(int pos, void* userInput)
+{
+	if(pos <= 0)
+		return;
+	// Aux variable for result
+	Mat imgBlur;
+
+	// Get the pointer input image
+	Mat* img= (Mat*)userInput;
+
+	// Apply a blur filter
+	blur(*img, imgBlur, Size(pos, pos));	
+
+	// Show the result
+	imshow("Lena", imgBlur);
+}
+
+//Mouse callback
+static void onMouse( int event, int x, int y, int, void* userInput )
+{
+	if( event != EVENT_LBUTTONDOWN )
+	        return;
+
+	// Get the pointer input image
+	Mat* img= (Mat*)userInput;
+	
+	// Draw circle
+	circle(*img, Point(x, y), 10, Scalar(0,255,0), 3);
+
+	// Call on change to get blurred image
+	onChange(blurAmount, img);
+
+}
