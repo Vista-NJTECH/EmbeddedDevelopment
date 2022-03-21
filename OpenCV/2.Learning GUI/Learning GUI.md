@@ -134,37 +134,10 @@ int main(int argc,const char** argv)
     //生成滑块，详细参数见Note
     createTrackbar("Lena","Lena",&blurAmount,30,onChange,&lena);
 
-    //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    //当用户单击鼠标左键时，我们添加鼠标事件来绘制圆形，详细参数见Note
     setMouseCallback("Lena",onMouse,&lena);
 
-
+    //
     onChange(blurAmount,&lena);
 
     waitKey(0);
