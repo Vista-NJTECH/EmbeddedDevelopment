@@ -1,8 +1,5 @@
-n = 1
-while n <= 9:
-    m = 1
-    while m <= n:
-        print(f'{m}*{n}={m*n}', end =' ')
-        m += 1
-    n += 1
-    print()
+while(1):
+    s = input('输入：（0） 来退出')
+    if s == "0" :
+        break
+    else : print("你输入的是：",s)

@@ -143,9 +143,9 @@ while n <= 9:
 ```python
 while(1):
     s = input('输入：（0） 来退出')
-    if input == '0':
+    if s == "0" :
         break
-    else print("你输入的是：",s)
+    else : print("你输入的是：",s)
 ```
 
 ## 7.continue
